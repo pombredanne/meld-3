@@ -102,7 +102,7 @@
         <property name="visible">True</property>
         <property name="can_focus">False</property>
         <child>
-          <object class="DiffGrid" id="grid">
+          <object class="GtkGrid" id="grid">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
             <child>
@@ -229,7 +229,7 @@
               </packing>
             </child>
             <child>
-              <object class="DiffMap" id="diffmap1">
+              <object class="GtkDrawingArea" id="diffmap1">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <property name="vexpand">True</property>
@@ -257,7 +257,7 @@
               </packing>
             </child>
             <child>
-              <object class="ScrollLinkMap" id="linkmap1">
+              <object class="GtkDrawingArea" id="linkmap1">
                 <property name="width_request">50</property>
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
@@ -287,7 +287,7 @@
               </packing>
             </child>
             <child>
-              <object class="DiffMap" id="diffmap0">
+              <object class="GtkDrawingArea" id="diffmap0">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <property name="vexpand">True</property>
@@ -315,7 +315,7 @@
               </packing>
             </child>
             <child>
-              <object class="ScrollLinkMap" id="linkmap0">
+              <object class="GtkDrawingArea" id="linkmap0">
                 <property name="width_request">50</property>
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
@@ -335,7 +335,7 @@
                 <property name="can_focus">False</property>
                 <property name="hexpand">True</property>
                 <child>
-                  <object class="MsgAreaController" id="msgarea_mgr0">
+                  <object class="GtkHBox" id="msgarea_mgr0">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <child>
@@ -393,7 +393,7 @@
                 <property name="can_focus">False</property>
                 <property name="hexpand">True</property>
                 <child>
-                  <object class="MsgAreaController" id="msgarea_mgr1">
+                  <object class="GtkHBox" id="msgarea_mgr1">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <child>
@@ -449,7 +449,7 @@
                 <property name="can_focus">False</property>
                 <property name="hexpand">True</property>
                 <child>
-                  <object class="MsgAreaController" id="msgarea_mgr2">
+                  <object class="GtkHBox" id="msgarea_mgr2">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <child>

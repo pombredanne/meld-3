@@ -111,7 +111,7 @@
         <signal name="key-press-event" handler="on_key_event" swapped="no"/>
         <signal name="key-release-event" handler="on_key_event" swapped="no"/>
         <child>
-          <object class="DiffGrid" id="grid">
+          <object class="GtkGrid" id="grid">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
             <property name="margin_top">0</property>
@@ -355,7 +355,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <child>
-                  <object class="MsgAreaController" id="msgarea_mgr0">
+                  <object class="GtkHBox" id="msgarea_mgr0">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                   </object>
@@ -376,7 +376,7 @@
                     <property name="window_placement_set">True</property>
                     <signal name="size-allocate" handler="on_scrolledwindow_size_allocate" swapped="no"/>
                     <child>
-                      <object class="MeldSourceView" id="textview0">
+                      <object class="GtkTextView" id="textview0">
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <signal name="button-press-event" handler="on_textview_button_press_event" swapped="no"/>
@@ -406,7 +406,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <child>
-                  <object class="MsgAreaController" id="msgarea_mgr2">
+                  <object class="GtkHBox" id="msgarea_mgr2">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                   </object>
@@ -425,7 +425,7 @@
                     <property name="vscrollbar_policy">always</property>
                     <signal name="size-allocate" handler="on_scrolledwindow_size_allocate" swapped="no"/>
                     <child>
-                      <object class="MeldSourceView" id="textview2">
+                      <object class="GtkTextView" id="textview2">
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <signal name="button-press-event" handler="on_textview_button_press_event" swapped="no"/>
@@ -455,7 +455,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <child>
-                  <object class="MsgAreaController" id="msgarea_mgr1">
+                  <object class="GtkHBox" id="msgarea_mgr1">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                   </object>
@@ -474,7 +474,7 @@
                     <property name="vscrollbar_policy">always</property>
                     <signal name="size-allocate" handler="on_scrolledwindow_size_allocate" swapped="no"/>
                     <child>
-                      <object class="MeldSourceView" id="textview1">
+                      <object class="GtkTextView" id="textview1">
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <signal name="button-press-event" handler="on_textview_button_press_event" swapped="no"/>
@@ -515,7 +515,7 @@
               </packing>
             </child>
             <child>
-              <object class="DiffMap" id="diffmap1">
+              <object class="GtkDrawingArea" id="diffmap1">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
               </object>
@@ -542,7 +542,7 @@
               </packing>
             </child>
             <child>
-              <object class="LinkMap" id="linkmap0">
+              <object class="GtkDrawingArea" id="linkmap0">
                 <property name="width_request">50</property>
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
@@ -571,7 +571,7 @@
               </packing>
             </child>
             <child>
-              <object class="DiffMap" id="diffmap0">
+              <object class="GtkDrawingArea" id="diffmap0">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
               </object>
@@ -598,7 +598,7 @@
               </packing>
             </child>
             <child>
-              <object class="LinkMap" id="linkmap1">
+              <object class="GtkDrawingArea" id="linkmap1">
                 <property name="width_request">50</property>
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
@@ -619,7 +619,7 @@
           </packing>
         </child>
         <child>
-          <object class="MeldStatusBar" id="statusbar">
+          <object class="GtkStatusbar" id="statusbar">
             <property name="visible">True</property>
             <property name="margin-right">12</property>
           </object>
